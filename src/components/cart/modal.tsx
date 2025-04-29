@@ -28,11 +28,11 @@ export default function CartModal() {
   const openCart = () => setIsOpen(true);
   const closeCart = () => setIsOpen(false);
 
-  useEffect(() => {
-    if (!cart) {
-      createCartAndSetCookie();
-    }
-  }, [cart]);
+  // useEffect(() => {
+  //   if (!cart) {
+  //     createCartAndSetCookie();
+  //   }
+  // }, [cart]);
 
   useEffect(() => {
     if (
