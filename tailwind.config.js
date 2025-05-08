@@ -33,9 +33,25 @@ module.exports = {
           "calc((10/var(--bw)*100vw))",
           { letterSpacing: "calc((0/var(--bw))*100vw)" },
         ],
+        "12d": [
+          "calc((12/var(--bw)*100vw))",
+          { letterSpacing: "calc((0/var(--bw))*100vw)" },
+        ],
+        "13d": [
+          "calc((13/var(--bw)*100vw))",
+          { letterSpacing: "calc((0/var(--bw))*100vw)" },
+        ],
         "20d": [
           "calc((20/var(--bw)*100vw))",
           { letterSpacing: "calc((-0.02*20/var(--bw))*100vw)" },
+        ],
+        "70d": [
+          "calc((70/var(--bw)*100vw))",
+          { letterSpacing: "calc((-0.05*70/var(--bw))*100vw)" },
+        ],
+        "136d": [
+          "calc((136/var(--bw)*100vw))",
+          { letterSpacing: "calc((-0.05*136/var(--bw))*100vw)" },
         ],
       },
       gap: {
@@ -47,7 +63,11 @@ module.exports = {
       },
       height: {
         "21d": "calc((21/var(--bw)*100vw))",
+        "30d": "calc((30/var(--bw)*100vw))",
         "64d": "calc((64/var(--bw)*100vw))",
+      },
+      inset: {
+        "125d": "calc((125/var(--bw)*100vh))",
       },
       keyframes: {
         fadeIn: {
@@ -57,9 +77,21 @@ module.exports = {
           },
         },
       },
+      lineHeight: {
+        1.1: "1.1",
+        1.2: "1.2",
+        1.3: "1.3",
+        1.4: "1.4",
+      },
+      margin: {
+        "32d": "calc((32/var(--bw)*100vw))",
+        "70d": "calc((70/var(--bw)*100vw))",
+      },
       padding: {
         "16d": "calc((16/var(--bw)*100vw))",
         "40d": "calc((40/var(--bw)*100vw))",
+        "60d": "calc((60/var(--bw)*100vw))",
+        "79d": "calc((79/var(--bw)*100vw))",
       },
       width: {
         "21d": "calc((21/var(--bw)*100vw))",
