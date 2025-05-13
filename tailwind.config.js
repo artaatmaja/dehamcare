@@ -45,6 +45,10 @@ module.exports = {
           "calc((20/var(--bw)*100vw))",
           { letterSpacing: "calc((-0.02*20/var(--bw))*100vw)" },
         ],
+        "48d": [
+          "calc((48/var(--bw)*100vw))",
+          { letterSpacing: "calc((-0.05*48/var(--bw))*100vw)" },
+        ],
         "70d": [
           "calc((70/var(--bw)*100vw))",
           { letterSpacing: "calc((-0.05*70/var(--bw))*100vw)" },
@@ -67,6 +71,8 @@ module.exports = {
         "64d": "calc((64/var(--bw)*100vw))",
       },
       inset: {
+        "40d": "calc((40/var(--bw)*100vh))",
+        "100d": "calc((100/var(--bw)*100vh))",
         "125d": "calc((125/var(--bw)*100vh))",
       },
       keyframes: {
@@ -85,13 +91,18 @@ module.exports = {
       },
       margin: {
         "32d": "calc((32/var(--bw)*100vw))",
+        "60d": "calc((60/var(--bw)*100vw))",
         "70d": "calc((70/var(--bw)*100vw))",
+      },
+      maxWidth: {
+        "1130d": "calc((1130/var(--bw)*100vw))",
       },
       padding: {
         "16d": "calc((16/var(--bw)*100vw))",
         "40d": "calc((40/var(--bw)*100vw))",
         "60d": "calc((60/var(--bw)*100vw))",
-        "79d": "calc((79/var(--bw)*100vw))",
+        "64d": "calc((64/var(--bw)*100vw))",
+        "160d": "calc((160/var(--bw)*100vw))",
       },
       width: {
         "21d": "calc((21/var(--bw)*100vw))",

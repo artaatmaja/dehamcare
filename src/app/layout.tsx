@@ -23,7 +23,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manrope.variable} font-manrope antialiased bg-light-ivory`}
+        className={`${manrope.variable} font-manrope antialiased bg-light-ivory text-dark-green`}
       >
         <CartProvider cartPromise={cart}>{children}</CartProvider>
       </body>
